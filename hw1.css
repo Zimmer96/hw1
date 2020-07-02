@@ -1,0 +1,154 @@
+html{
+	background-color:;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+h1{
+	color: #FF8C00;
+	font-family:  Arial,Helvetica,sans-serif;
+	text-align: center;
+	margin-bottom: 80px;
+}
+
+header{
+	background-image: url(http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg);
+	background-size: cover;
+	height: 200px;
+}
+header a{
+	color:  #6f4e37;
+	background-color: rgba(255,255,255,.3);
+	padding: 20px 50px 20px 50px;
+	margin : 50px;
+	font-family: fantasy;
+	font-style: bold;
+	font-size: 125%;
+	text-align: center;
+	transition-duration: 700ms;
+}
+header a:hover{
+	background-color:#C0C0C0;
+	text-decoration: underline;
+	transform: rotate(45deg)
+
+	}
+	 header a:active{
+	background-color: #A9A9A9;
+}
+header a:focus{
+	color: white;
+}
+	main{
+		float: left;
+		display: inline;
+	}
+	.active{
+		background-color: white;
+	}
+	aside a{
+	color:  #FF8C00;
+		padding: 20px 20px 5px 5px;
+	margin: 100px ;
+	font-family: fantasy;
+	font-style: bold;
+	font-size: 100%;
+	text-align: center;
+
+	}
+	nav{
+		text-align: center;
+	}
+img{
+	outline: solid black;
+	width: 20%;
+	display: table-cell;
+	text-align: center;
+	display: block;
+	margin-top:;
+  margin-left: ;
+  margin-right: ;
+  padding: -100px;
+  display: ;
+}
+h2{
+	color: #06beb6;
+	background-image: linear-gradient(#42275a,#734b6d);
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 150%;
+	text-align: center;
+	padding: 20px;
+}
+p{
+	color: black;
+	font-family:  cursive;
+	font-size: 120%;
+}
+section{
+	position: relative;
+	display:inline;
+	float:left;
+	margin-left: 100px;
+	padding: 50px;
+
+    /*background-image: -moz-linear-gradient( #696969 20%, #00b7ea );
+     background-image: -webkit-linear-gradient( #696969 20%, #00b7ea );
+     background-image: -o-linear-gradient( #696969 20%, #00b7ea );
+     background-image: linear-gradient( #696969 20%, #00b7ea );*/
+}
+.left{
+float: left;
+}
+.right{
+  position: absolute;
+  top: 200px;
+  left: 160px;
+  font-size: 18px;
+}
+
+div{
+   width: 100px;
+   height: 50px;
+   padding: 10px;
+   margin: 5px;
+   border: 1px solid black;
+}
+
+ul{
+	color: #FF8C00;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size: 100%;
+	display: inline-block; 
+}
+section a{
+	color: #db7093;
+	text-decoration: none;
+	position: absolute;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+}
+th{
+	color: white;
+text-align: left;
+	padding: 20px;
+	background-image: linear-gradient(#2193b0,#6dd5ed);
+	border: 2px solid 	rgba(211,211,211,.8);
+	border-radius: 10px;
+}
+td{
+	color: #696969;
+	text-align: left;
+	padding: 10px;
+	margin: auto;
+	border: 2px solid 	rgba(211,211,211,.6);
+}
+tr:nth-child(even){
+	background-color: 	rgba(211,211,211,.4);
+	color: red; 
+}
+tr:hover{
+	background-color:  rgba(169,169,169,1);
+}
